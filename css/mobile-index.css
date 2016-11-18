@@ -1,0 +1,281 @@
+/* banner */
+.hfr-banner{
+    width:100%;
+}
+/* left */
+.main-left{
+    width:100%;
+    float: left;
+}
+
+/* 联系我们 */
+.conusbox{
+    background: url(../images/index_conus.jpg) no-repeat 0 bottom #fff;
+    background-size: 100%;
+    width:100%;
+    float: left;
+    padding-top:10px;
+    border:1px solid #c6c6c6;
+}
+.conusbox .contact-us{
+    width:94%;
+    margin-left:10px;
+    margin-top:0;
+    padding-bottom: 8px;
+    border-bottom:1px solid #ddd;
+}
+.conusbox .contact-us span{
+    font-size: 14px;
+    background: url("../images/jf-icon.png") no-repeat 0 -80px;
+    padding-left: 23px;
+    background-size:30%;
+}
+.conusbox table{
+    width:95%;
+    margin:10px auto;
+}
+.conusbox table td{
+    padding:6px;
+    color:#000;
+    font-size: 12px;
+}
+.conusbox table tr td:first-child{
+    text-align: right;
+}
+/* 用户中心 */
+.user-center{
+    background: #fff;
+    float: left;
+    width:100%;
+    margin-top:20px;
+    padding: 10px 0;
+}
+.user-center h3{
+    width:94%;
+    margin-left:10px;
+    margin-top:0;
+    border-bottom:1px solid #ddd;
+    padding-bottom: 9px;
+}
+.user-center h3 span{
+    font-size: 14px;
+    background: url("../images/jf-icon.png") no-repeat 0 -130px;
+    background-size: 30%;
+    padding-left: 23px;
+    border-bottom:4px solid #c63b00;
+    padding-bottom: 6px;
+}
+.user-center ul{
+    float: left;
+    width:95%;
+    margin-left:10px;
+}
+.user-center ul li{
+    padding: 10px 0;
+    width:100%;
+    border-bottom:1px dashed #d7d7d7;
+}
+.user-center ul li a{
+    color: #333;
+    background: url("../images/jf-icon.png") no-repeat 0 -352px;
+    padding-left: 15px;
+    font-size: 12px;
+}
+/* rightMain */
+.rightmain{
+    width:100%;
+    float: right;
+}
+.company{
+    float: left;
+    width:100%;
+}
+.company nav{
+    width:96%;
+    margin-left:8px;
+    float: left;
+    border-bottom:1px solid #ddd;
+    padding-top: 8px;
+}
+.company nav a{
+    font-size: 12px;
+    float: right;
+    color: #001a62;
+    margin-top:10px;
+}
+.company nav span{
+    background: url(../images/jf-icon.png) no-repeat 0 -105px;
+    padding-left: 30px;
+    background-size: 28%;
+    float: left;
+    color: #333;
+    font-size: 14px;
+    border-bottom:4px solid #c63b00;
+    padding-bottom: 8px;
+}
+.company p{
+    width:100%;
+    float: left;
+    margin:10px 0;
+    font-size: 12px;
+    padding:10px;
+    text-indent: 24px;
+    line-height:24px;
+    background: #f1f1f1;
+}
+
+/* 检测项目 */
+.jf-jianc{
+    float: left;
+    width:100%;
+    background: #fff;
+    border:1px solid #ddd;
+    padding: 10px;
+    margin-top:10px;
+}
+.jf-jianc nav{
+    width:99%;
+    margin-left:6px;
+    float: left;
+    border-bottom:1px solid #ddd;
+}
+.jf-jianc nav a{
+    font-size: 12px;
+    float: right;
+    color: #001a62;
+    margin-top:10px;
+}
+.jf-jianc nav span{
+    background: url(../images/jf-icon.png) no-repeat 0 -148px;
+    padding-left: 30px;
+    background-size: 26%;
+    float: left;
+    color: #333;
+    font-size: 14px;
+    border-bottom:4px solid #c63b00;
+    padding-bottom: 8px;
+}
+.jf-jianc ul{
+    float: left;
+    width:99%;
+    margin:10px 5px;
+}
+.jf-jianc ul li{
+    float: left;
+    width:50%;
+    margin-top:10px;
+}
+.jf-jianc ul li a{
+    background: url(../images/jf-icon.png) no-repeat 0 -292px;
+    padding-left: 20px;
+    font-size: 12px;
+    color: #000;
+}
+.jf-jianc ul li a:hover{
+    background-position: 0 -317px;
+    color: #0055ab;
+}
+/* End 检测项目 */
+/* Start 服务承诺 */
+.jf-serv{
+    float: left;
+    margin-top:10px;
+}
+.jf-serv li{
+    -webkit-box-shadow: 5px 5px 5px #999;
+    -moz-box-shadow: 5px 5px 5px #999;
+    box-shadow: 5px 5px 5px #999;
+    width:100%;
+    float: left;
+    margin-top:15px;
+    height:60px;
+    background: #fff;
+    overflow: hidden;
+}
+.jf-serv li span{
+    padding-top: 10px;
+    float: left;
+    width: 60px;
+    height:60px;
+    background: #0055ab;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+.jf-serv li p{
+    width:78%;
+    float: left;
+    margin-left:10px;
+    padding-top: 6px;
+    font-size: 12px;
+    line-height: 24px;
+}
+/* End 服务承诺 */
+/* 主要仪器 */
+.key-ins{
+    float: left;
+    width:100%;
+    margin-top:10px;
+    position: relative;
+    overflow: hidden;
+}
+.key-ins span{
+    background: url(../images/jf-arrow.png) no-repeat;
+    width:20px;
+    height: 45px;
+    position: absolute;
+    top: 85px;
+    cursor: pointer;
+    background-size:60%;
+}
+.key-ins span.prev{
+    background-position: 0 0;
+    left:0;
+}
+.key-ins span.next{
+    background-position: 0 -54px;
+    right:0;
+}
+.key-ins span.prevgray{
+    background: url(../images/jf-arrow-gray.png) no-repeat;
+    background-size:60%;
+}
+.key-ins span.nextgray{
+    background: url(../images/jf-arrow-gray.png) no-repeat 0 -54px;
+    background-size:60%;
+}
+.key-ins .picbox{
+    width:85%;
+    height:120px;
+    margin-left:25px;
+    overflow: hidden;
+    position: relative;
+}
+.key-ins ul{
+    position: absolute;
+    width:150%;
+    height:176px;
+}
+.key-ins ul li{
+    float: left;
+    width:150px;
+    margin-right:15px;
+}
+.key-ins ul li img{
+    width:100%;
+}
+/* End 主要仪器 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+

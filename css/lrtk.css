@@ -1,0 +1,76 @@
+/* CSS Document */、
+table{border-collapse:collapse;border-spacing:0}
+a{color:#333;text-decoration:none}
+a:hover{color:#ef9b11;text-decoration:underline}
+
+.box{width:100%;margin:20px auto;}
+.left-pro{width:100%; padding:20px 10px;border:1px solid #ccc;text-align:left;float:left;
+    background: #f1f1f1;position: relative;
+}
+.left-pro .t1{width:100px;float:left}
+.left-pro .t2{width:352px;text-indent:0;float:left;}
+.left-pro .t2 img{text-indent:0;}
+#showArea img{cursor:pointer;display:block;margin-bottom:5px;width:68px;padding:1px;border:1px solid #ccc;height:68px;float:left}
+#main_img{cursor:pointer;display:block}
+#gotop{cursor:pointer;display:block;margin-left:9px}
+#gobottom{cursor:pointer;display:block;margin-left:9px}
+#showArea{height:320px;margin:10px;overflow:hidden}
+.main_img{
+    width:352px;
+    height:352px;
+}
+.box button{
+    border:0 none;
+    background: #bd5400;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color:#fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    position: absolute;
+    bottom:20px;
+    right:50px;
+}
+.table-list td{
+    font-size:14px;
+    padding:10px;
+    color: #666;
+    border-bottom:1px solid #ddd;
+}
+@media screen and (min-width:320px) and (max-width:768px){
+    .left-pro .t1{
+        width:25%;
+    }
+
+    .main_img{
+        width:352px;
+        height:352px;
+    }
+    .left-pro .t2{
+        width:75%;
+    }
+    .left-pro .t2 a{
+        width:100% !important;
+    }
+    .left-pro .t2 img{
+        width:100%;
+        max-height:300px;
+    }
+    #showArea{height:270px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
