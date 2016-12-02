@@ -1,0 +1,81 @@
+.rightmain{
+   background: #fff;
+   width: 100%;
+    float:left;
+}
+
+.jf-keyinsbox{
+    width:100%;
+    margin:10px auto;
+}
+.jf-keyinsbox td{
+    border:1px solid #ddd;
+    padding: 5px;
+    text-align: center;
+    font-size: 12px;
+}
+.jf-keyinsbox .title td{
+    background: #da6700;
+    color:#fff
+}
+/* 设备图 */
+.ins-pic{
+    float: left;
+    width:100%;
+    margin-left:15px;
+}
+.ins-pic li{
+    float: left;
+    width:45%;
+    margin-right:8px;
+    margin-top:10px;
+    text-align: center;
+}
+.ins-pic li img{
+    width:100%;
+}
+.ins-pic li span{
+    float: left;
+    width:100%;
+    text-align: center;
+    margin-top:10px;
+    font-size: 12px;
+}
+/* 服务方针声明 */
+.statement{
+    width:95%;
+    margin:10px auto;
+}
+.statement h5,
+.statement h6{
+    font-size: 14px;
+    font-weight: bold;
+    color: #282828;
+    margin-top:10px;
+    float: left;
+    width:100%;
+}
+.statement h6{
+    font-size: 14px;
+    text-indent: 24px;
+    margin-top:5px;
+}
+.statement p{
+    text-indent: 24px;
+    line-height: 24px;
+    font-size: 12px;
+}
+/* 公司简介 */
+.company-info p{
+    text-indent: 24px;
+    line-height: 24px;
+    margin:10px auto;
+    width:95%;
+    font-size: 12px;
+}
+
+
+
+
+
+
