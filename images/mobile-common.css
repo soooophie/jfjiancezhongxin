@@ -3,6 +3,7 @@ body{
     margin:0;
     font-family: "Microsoft YaHei";
     background: #f8f8f8;
+    overflow-x: hidden;
 }
 body,
 ul{
@@ -18,7 +19,7 @@ img{
 }
 
 .container{
-    width:1000px;
+    width:100%;
     padding: 0;
 }
 
@@ -30,29 +31,41 @@ img{
     background:#000;
 }
 .hfr-top li{
-    margin-right:20px;
+    margin-right:10px;
 }
 .hfr-top a{
     color: #fff;
+    font-size: 12px;
     height:32px;
     line-height:32px;
     padding-left: 20px;
-    background: url(../images/jf-icon.png) no-repeat;
+    background: url(jf-icon.png) no-repeat;
     background-size: 30%;
 }
 
 .hfr-top li:last-child a{
-    background-position: 0 5px;
+    background-position: 0 3px;
 }
 .hfr-top li:first-child a{
-    background-position: 0 -33px;
+    background-position: 0 -31px;
 }
 /* Start head */
 .hfr-head{
     width:100%;
     float: left;
-    border-bottom:1px solid #ddd;
     background: #fff;
+}
+.navbar-toggle{
+    margin:0;
+}
+.navbar-toggle .icon-bar{
+    background: #000;
+}
+
+.navbar-brand{
+    float: left;
+    width:85%;
+    padding:5px 10px;
 }
 .hfr-head .navbar{
     margin-top:10px;
@@ -61,10 +74,7 @@ img{
 .hfr-head .navbar-collapse{
     width:100%;
     float: left;
-    height:65px;
     background: #006699;
-    margin-top:10px;
-    border-bottom:5px solid #005681;
 }
 
 .hfr-head .navbar-collapse ul li{
@@ -76,11 +86,12 @@ img{
     background: #005681;
 }
 .hfr-head .navbar-collapse ul li a{
-    color: #fff;
     font-size: 14px;
-}
-.hfr-head .navbar-collapse ul li a:hover{
     color: #fff;
+}
+.hfr-head .navbar-collapse ul li.active a{
+    background: #005681;
+    font-size: 14px;
 }
 
 /* Start common */
@@ -104,23 +115,9 @@ h3.title a{
     color: #666;
     margin-top:15px;
 }
-/* 产品分类 */
-.prod-cate span{
-    background: url(../images/ind-icon.png) no-repeat 0 7px;
-}
-/* 联系我们 */
-.contact-us span{
-    background: url(../images/ind-icon.png) no-repeat 0 -100px;
-}
-/* 产品展示 */
-.pro-show span{
-    background: url(../images/ind-icon.png) no-repeat 0 -59px;
-}
 
 /* left menu */
-.panel-group .panel-collapse .list-group{
-    background:#f3f3f3
-}
+
 /* footer */
 footer{
     margin-top:20px;
